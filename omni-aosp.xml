@@ -2,13 +2,13 @@
 <manifest>
 
     <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="https://ghproxy.com/https://github.com/" />
 
     <remote  name="gitlab"
            fetch="https://gitlab.com/omnirom" />
 
     <remote  name="omnirom"
-           fetch="https://github.com/omnirom"
+           fetch="https://ghproxy.com/https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
     <project path="build/make" name="android_build" remote="omnirom" revision="android-12.1" groups="pdk" >
